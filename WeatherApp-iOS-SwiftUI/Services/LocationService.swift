@@ -9,7 +9,7 @@ import Foundation
 
 import CoreLocation
 
-class LocationServer: NSObject, ObservableObject, CLLocationManagerDelegate {
+class LocationService: NSObject, ObservableObject, CLLocationManagerDelegate {
     let manager = CLLocationManager()
     
     //location & isloading state
