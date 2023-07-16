@@ -17,12 +17,12 @@ struct ContentView: View {
                 Text("Your coordinates are : \(location.longitude),\(location.latitude)")
                      } else{
                     if locationManager.isLoading{
-                        ProgressView()
+                        LoadingView()
+                    }else{
+                        WelcomeView()
+                            .environmentObject(locationManager)
                     }
-                }
-            
-            WelcomeView()
-                .environmentObject(locationManager)
+                     }
         }
         .background(Color(hue: 0.421, saturation: 0.735, brightness: 0.702))
         .preferredColorScheme(.dark)

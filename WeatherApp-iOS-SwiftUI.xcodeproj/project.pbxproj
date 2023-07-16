@@ -13,6 +13,7 @@
 		6830A5E72A5FD80200EE3994 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6830A5E62A5FD80200EE3994 /* Preview Assets.xcassets */; };
 		6830A5F02A63210300EE3994 /* LocationServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6830A5EF2A63210300EE3994 /* LocationServer.swift */; };
 		6830A5F32A63268E00EE3994 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6830A5F22A63268E00EE3994 /* WelcomeView.swift */; };
+		6830A5F52A64307000EE3994 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6830A5F42A64307000EE3994 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		6830A5E62A5FD80200EE3994 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6830A5EF2A63210300EE3994 /* LocationServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServer.swift; sourceTree = "<group>"; };
 		6830A5F22A63268E00EE3994 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		6830A5F42A64307000EE3994 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				6830A5E12A5FD80100EE3994 /* ContentView.swift */,
 				6830A5F22A63268E00EE3994 /* WelcomeView.swift */,
+				6830A5F42A64307000EE3994 /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				6830A5E22A5FD80100EE3994 /* ContentView.swift in Sources */,
 				6830A5E02A5FD80100EE3994 /* WeatherApp_iOS_SwiftUIApp.swift in Sources */,
 				6830A5F02A63210300EE3994 /* LocationServer.swift in Sources */,
+				6830A5F52A64307000EE3994 /* LoadingView.swift in Sources */,
 				6830A5F32A63268E00EE3994 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
