@@ -16,7 +16,9 @@
 		6830A5F52A64307000EE3994 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6830A5F42A64307000EE3994 /* LoadingView.swift */; };
 		6830A5F72A643B9100EE3994 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6830A5F62A643B9100EE3994 /* WeatherService.swift */; };
 		6835E13C2A68816E00144743 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6835E13B2A68816E00144743 /* WeatherView.swift */; };
-		6835E13E2A68875600144743 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6835E13D2A68875600144743 /* Model.swift */; };
+		6835E13E2A68875600144743 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6835E13D2A68875600144743 /* ModelData.swift */; };
+		6835E1422A6C201E00144743 /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6835E1412A6C201E00144743 /* weatherData.json */; };
+		6835E1442A6C21BC00144743 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6835E1432A6C21BC00144743 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +32,9 @@
 		6830A5F42A64307000EE3994 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		6830A5F62A643B9100EE3994 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		6835E13B2A68816E00144743 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
-		6835E13D2A68875600144743 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6835E13D2A68875600144743 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		6835E1412A6C201E00144743 /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
+		6835E1432A6C21BC00144743 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 				6830A5F12A6324CB00EE3994 /* Views */,
 				6830A5DF2A5FD80100EE3994 /* WeatherApp_iOS_SwiftUIApp.swift */,
 				6830A5E32A5FD80200EE3994 /* Assets.xcassets */,
+				6835E1432A6C21BC00144743 /* Extensions.swift */,
 				6830A5E52A5FD80200EE3994 /* Preview Content */,
 			);
 			path = "WeatherApp-iOS-SwiftUI";
@@ -76,7 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				6830A5E62A5FD80200EE3994 /* Preview Assets.xcassets */,
-				6835E13D2A68875600144743 /* Model.swift */,
+				6835E13D2A68875600144743 /* ModelData.swift */,
+				6835E1412A6C201E00144743 /* weatherData.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -160,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6830A5E72A5FD80200EE3994 /* Preview Assets.xcassets in Resources */,
+				6835E1422A6C201E00144743 /* weatherData.json in Resources */,
 				6830A5E42A5FD80200EE3994 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,13 +179,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6830A5E22A5FD80100EE3994 /* ContentView.swift in Sources */,
+				6835E1442A6C21BC00144743 /* Extensions.swift in Sources */,
 				6830A5E02A5FD80100EE3994 /* WeatherApp_iOS_SwiftUIApp.swift in Sources */,
 				6830A5F02A63210300EE3994 /* LocationService.swift in Sources */,
 				6830A5F52A64307000EE3994 /* LoadingView.swift in Sources */,
 				6830A5F72A643B9100EE3994 /* WeatherService.swift in Sources */,
 				6835E13C2A68816E00144743 /* WeatherView.swift in Sources */,
 				6830A5F32A63268E00EE3994 /* WelcomeView.swift in Sources */,
-				6835E13E2A68875600144743 /* Model.swift in Sources */,
+				6835E13E2A68875600144743 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
