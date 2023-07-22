@@ -25,7 +25,15 @@ struct WeatherView: View {
                 VStack{
                     //text label about degree of feels like.
                     HStack{
-                        Text(weather.main.feels_like.roundDouble() + "°").font(.system(size:110)).fontWeight(.bold)
+                        VStack(spacing: 20){
+                            Image(systemName: "sun.max").font(.system(size:40))
+                            //text label about weather type
+                            Text(weather.weather[0].main)
+                        }
+                        Spacer()
+                            .frame(height: 80)
+                        
+                        Text(weather.main.feels_like.roundDouble() + "°").font(.system(size:100)).fontWeight(.bold)
                             .padding()
                     }
                 }
